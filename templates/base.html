@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+
+    <title>{% block title %} {% endblock %}</title>
+
+    <link rel="stylesheet" href="{{url_for('static',filename='styles/style.css')}}">
+
+</head>
+
+<body>
+
+<h1>WINE QUALITY PREDICTION SYSTEM</h1>
+
+<div class="mainimg"></div>
+<section>
+    
+    <div class="form">
+
+        <h2>Enter the Calculated Values</h2>
+
+    <form id= "begin" action="results" method="post">
+
+    <div class="fixedacid">
+
+        <label for="Fixed_acidity" >Fixed Acidity: </label> <br>
+        <input type="text" name ="Fixed_acidity" id= "same" required> <br>
+    </div>
+
+    <div class="Volatileacid">
+        <label for="Volatile_acidity">Volatile Acidity: </label> <br>
+        <input type="text" name ="Volatile_acidity" id= "same" required><br>
+    </div>
+
+    <div class="Citricacid">
+        <label for="Citric_acid">Citric Acid: </label> <br>
+        <input type="text" name ="Citric_acid" id= "same" required><br>
+    </div>
+
+    <div class ="residualsugar">
+        <label for="Residual_sugar">Residual sugar: </label> <br>
+        <input type="text"name ="Residual_sugar" id= "same" required><br>
+    </div>
+
+    <div class="chlorides">
+        <label for="Chlorides"> Chlorides: </label> <br>
+        <input type="text" name ="Chlorides" id= "same" required><br>
+    </div>
+
+    <div class="freesulfurdioxide">
+        <label for="Free_sulfur_dioxide">Free Sulfur Dioxide: </label> <br>
+        <input type="text" name ="Free_sulfur_dioxide" id= "same" required><br>
+    </div>
+
+    <div class="totalsulfurdioxide">
+        <label for="Total_sulfur_dioxide">Total Sulfur Dioxide:</label><br>
+        <input type="text" name="Total_sulfur_dioxide" id="same" required><br>
+    </div>
+
+    <div class="density">
+        <label for="Density">Density:</label><br>
+        <input type="text" name="Density" id="same" required><br>
+    </div>
+
+    <div class="ph">
+        <label for="pH">pH:</label><br>
+        <input type="text" name="pH" id="same" required><br>
+    </div>
+
+    <div class="sulphate">
+        <label for="Sulphates">Sulphates</label><br>
+        <input type="text" name="Sulphates" id="same" required><br>
+    </div>
+
+    <div class="alcohol">
+        <label for="Alcohol">Alcohol:</label><br>
+        <input type="text" name="Alcohol" id="same" required><br><br>
+    </div>
+        
+        <input type="submit" id="submit">
+
+     </div>
+   </form>
+</section>
+
+</body>
+</html> 

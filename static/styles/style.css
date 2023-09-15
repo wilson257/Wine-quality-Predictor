@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin:0px;
+    /* box-sizing: border-box; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mainimg{  
+    width: 100%;
+    min-height: 110vh;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    background-image: url("../../static/images/pexels-terje-sollie-313715.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    filter: blur(2px);
+}
+section{
+     width: 400px;
+     position: absolute;
+     top:70px;
+     left: 530px;
+     height: 350px;
+}
+
+h1{ 
+    width: 750px;
+    top:10px;
+    left:450px;
+    color: rgb(64, 80, 77);
+    position: relative;
+    left:440px;
+    padding:10px;
+}
+
+h2{
+    /* z-index: 1; */
+    color: rgb(151, 148, 182);
+    text-align: center;
+    /* justify-content: center; */
+    /* position: relative; */
+    padding:10px;
+}
+
+.form{
+    /* margin-right: 20px; */
+    margin-top: 20px;
+    background-color: rgba(0,0,0,0.5);
+    color: rgb(183, 171, 155);
+    width:100%;
+    border-radius:1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15 px rgba(0,0,0,0.3);
+    color:#fff;
+    padding: 5px;
+    height: 730px;
+    /* padding-top: 20px; */
+}
+
+form#begin{
+  margin: 40px;
+}
+
+input#same{
+    width:300px;
+    border:1px solid #ddd;
+    border-radius:3px;
+    outline: 0;
+    padding:8px;
+    background-color: #fff;
+    box-shadow: inset 1 px 1px 5px rgba(0,0,0,0.3);
+}
+
+input#submit{
+    width: 200px;
+    padding:7px;
+    border:none;
+    border-radius:3px;
+    background-color: rgba(250,100,0,0.8);
+    color:#fff;
+    cursor:pointer;
+    border:1px solid rgba(255,255,255,0.3);
+    box-shadow:1px 1px 5px rgba(0,0,0,0.3);
+}

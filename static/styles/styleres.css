@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.image{
+    background-image: url("../../static/images/pexels-terje-sollie-313715.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    min-height:100vh;
+    filter: blur(2px);
+}
+
+.result{
+    position: absolute;
+    /* margin-left: 550px;
+    margin-top: 270px; */
+    /* padding-left: 550px;
+    padding-top: 300px; */
+    /* position: relative; */
+    top: 300px;
+    left: 530px;
+    width: 400px;
+    height: 100px;
+    background-color: rgba(0,0,0,0.7);
+    box-shadow: 0 5px 15px rgb(0,0,0.5);
+    border-radius:10px solid rgba(255,255,255,0.3);
+}
+
+.insideres{
+    position:relative;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+h1{
+    color: rgb(159, 228, 235);
+}
